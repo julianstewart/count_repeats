@@ -4,7 +4,7 @@
         class CountRepeatsTest extends PHPUnit_Framework_TestCase
         {
             // test for when there is no user input detected
-            function test_null_null ()
+            function test_countRepeats_nullNull()
             {
                 //arrange
                 $test_CountRepeats = new CountRepeats;
