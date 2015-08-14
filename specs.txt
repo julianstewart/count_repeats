@@ -1,11 +1,11 @@
 _null_use_cases_:
 
 _use_case_1_:
-input_1: "" | input_2: "" | output: "please enter a value in both fields!"
+input_1: "" | input_2: "" | output: "error"
 _use_case_2_:
-input_1: "a" | input_2: "" | output: "please enter a value in both fields!"
+input_1: "a" | input_2: "" | output: "error"
 _use_case_3_:
-input_1: "" | input_2: "a" | output: "please enter a value in both fields!"
+input_1: "" | input_2: "a" | output: "error"
 --description--:
 an empty string or NULL value in either or both user input fields is the simplest way of checking error handling capabilities.
 
