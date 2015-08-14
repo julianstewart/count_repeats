@@ -80,7 +80,7 @@
 
             // test for when input_one has a value of "a"
             // and input_two has a value of "i"
-            function test_countRepeats_aAA()
+            function test_countRepeats_aI()
             {
                 //arrange
                 $test_RepeatCounter = new RepeatCounter;
@@ -92,6 +92,7 @@
 
                 //assert
                 $this->assertEquals("0", $result);
+            }
         }
     }
 ?>

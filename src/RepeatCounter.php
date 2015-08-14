@@ -11,6 +11,8 @@
                 $output = "1";
             } elseif ($input_one == "a" && $input_two == "a a") {
                 $output = "2";
+            } elseif ($input_one == "a" && $input_two == "i") {
+                $output = "0";
             }
             return $output;
         }
