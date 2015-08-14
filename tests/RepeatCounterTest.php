@@ -47,6 +47,22 @@
                 //assert
                 $this->assertEquals("error", $result);
             }
+
+            // test for when input_one has a value of "a"
+            // and input_two has a value of "a"
+            function test_countRepeats_aA()
+            {
+                //arrange
+                $test_RepeatCounter = new RepeatCounter;
+                $input_one = "a";
+                $input_two = "a";
+
+                //act
+                $result = $test_RepeatCounter->countRepeats($input_one, $input_two);
+
+                //assert
+                $this->assertEquals("1", $result);
+            }
         }
     }
 ?>
