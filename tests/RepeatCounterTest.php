@@ -32,6 +32,21 @@
                 //assert
                 $this->assertEquals("error", $result);
             }
+            // test for when input_one is an empty string
+            // and input_two has a value of "a"
+            function test_countRepeats_nullA()
+            {
+                //arrange
+                $test_RepeatCounter = new RepeatCounter;
+                $input_one = (string)"";
+                $input_two = "";
+
+                //act
+                $result = $test_RepeatCounter->countRepeats($input_one, $input_two);
+
+                //assert
+                $this->assertEquals("error", $result);
+            }
         }
     }
 ?>
