@@ -1,6 +1,6 @@
-# _{Count Repeats}_
+# _Count Repeats_
 
-##### _{This application determines how frequently a specific word appears in a given string}, {2015.08.14}_
+##### _This application determines how frequently a specific word appears in a given string, 2015.08.14_
 
 #### By _**{Julian Stewart}**_
 
