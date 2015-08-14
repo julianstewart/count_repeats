@@ -1,0 +1,34 @@
+_null_use_cases_:
+
+_use_case_1_:
+input_1: "" | input_2: "" | output: "please enter a value in both fields!"
+_use_case_2_:
+input_1: "a" | input_2: "" | output: "please enter a value in both fields!"
+_use_case_3_:
+input_1: "" | input_2: "a" | output: "please enter a value in both fields!"
+--description--:
+an empty string or NULL value in either or both user input fields is the simplest way of checking error handling capabilities.
+
+_use_case_4_:
+input_1: "a" | input_2: "a" | output: "1"
+--description--:
+the string "a" is one of only two single-letter words in the English language making it
+the simplest way to test this behavior.
+
+_use_case_5_:
+input_1: "a" | input_2: "a a" | output: "2"
+--description--:
+the string "a" is one of only two single-letter words in the English language making it the simplest way to test this behavior. the second input value "a a" allows us to test for multiple occurrences of input_1 in input_2 rather than simply testing for equivalency of the two inputs.
+
+_no_match_use_cases_:
+_use_case_6_:
+input_1: "a" | input_2: "i" | output: "0"
+--description--:
+the string "a" is one of only two single-letter words in the English language, making it,
+along with "i", the simplest way to test this behavior.
+
+_use_case_7_:
+input_1: "a" | input_2: "i i" | output: "0"
+--description--:
+the string "a" is one of only two single-letter words in the English language, making it,
+along with "i", the simplest way to test this behavior. the second input value "i i" allows us test whether the data is being treated as a single string or as multiple words.
