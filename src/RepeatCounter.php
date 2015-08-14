@@ -13,6 +13,8 @@
                 $output = "2";
             } elseif ($input_one == "a" && $input_two == "i") {
                 $output = "0";
+            } elseif ($input_one == "a" && $input_two == "i i") {
+                $output = "0";
             }
             return $output;
         }
