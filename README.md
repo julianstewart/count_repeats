@@ -24,9 +24,7 @@ _{Tell me about the languages you used to create this app. Assume that I know yo
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_{Julian Stewart}_**
 
 This software is licensed under the MIT license.
 
