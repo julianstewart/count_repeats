@@ -22,7 +22,7 @@ _To run the application, simply start your local PHP server from the web/ direct
 
 ### Legal
 
-Copyright (c) 2015 **_{Julian Stewart}_**
+Copyright (c) 2015 **_Julian Stewart_**
 
 This software is licensed under the MIT license.
 
