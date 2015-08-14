@@ -1,18 +1,18 @@
 <?php
-    require_once "src/CountRepeats.php";
+    require_once "src/RepeatCounter.php";
     {
-        class CountRepeatsTest extends PHPUnit_Framework_TestCase
+        class RepeatCounterTest extends PHPUnit_Framework_TestCase
         {
             // test for when there is no user input detected
             function test_countRepeats_nullNull()
             {
                 //arrange
-                $test_CountRepeats = new CountRepeats;
+                $test_RepeatCounter = new RepeatCounter;
                 $input_one = (string)"";
                 $input_two = (string)"";
 
                 //act
-                $result = $test_CountRepeats->countRepeats($input_one, $input_two);
+                $result = $test_RepeatCounter->countRepeats($input_one, $input_two);
 
                 //assert
                 $this->assertEquals("error", $result);
