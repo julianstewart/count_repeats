@@ -2,25 +2,23 @@
 
 ##### _This application determines how frequently a specific word appears in a given string, 2015.08.14_
 
-#### By _**{Julian Stewart}**_
+#### By _**Julian Stewart**_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+_The user is presented with a simple form containing two input fields. The first field takes a word chosen by the user, and the second field accepts a string of words, again chosen by the user. After pressing the "submit" button, the user is presented with a page indicating the number of times the word entered into the first field occurs in the string of words entered into the second field._
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_This project makes use of a PHP dependency manager. Full details and installation instructions can be found at <a href="https://getcomposer.org">getcomposer.org</a>._
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+_To run the application, simply start your local PHP server from the web/ directory within the project folder and point your browser to your localhost server._
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _PHP_
+* _Silex_
+* _Twig_
 
 ### Legal
 
